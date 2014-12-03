@@ -7,7 +7,7 @@ See the YouTube video [here](https://www.youtube.com/watch?v=9ko9CeylUTs).
 ##Directory structure
 - **Arduino** contains the firmware, including pin definitions for the LED matrix and location of the words in each language.
 - **EAGLE** contains the schematic and PCB design files for the proejct, and the Bill of Materials.
-- **Graphics** contains the design for the transparency sheet to place over the LED matrix to form the words. Contributions in more languages are welcome!
+- **Graphics** contains the design for the transparency sheet to place over the LED matrix to form the words, designed in Inkscape. Contributions in more languages are welcome!
 
 ##Where to get parts
 - [The 20mm 8x8 LED matrix I used](http://eud.dx.com/product/lson-788-8-x-8-red-led-display-dot-matrix-module-black-white-844302671)
