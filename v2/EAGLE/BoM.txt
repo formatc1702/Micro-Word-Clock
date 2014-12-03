@@ -1,0 +1,23 @@
+Partlist exported from /Users/daniel/Documents/Development/EAGLE/MicroWordClock/MicroWordClock2/MicroWordClock2.sch at 2014/12/01 13:22
+
+Part          Value      Device            Package             Description                                MF MPN          OC_FARNELL OC_NEWARK TP_SIGNAL_NAME
+C1            220nF      C-EUC0805         C0805               CAPACITOR, European symbol                                                                    
+C2            2.2uF      CPOL-EUB/3528-21R B/3528-21R          POLARIZED CAPACITOR, European symbol                                                          
+IC1           ATMEGA328P MEGA8-AI          TQFP32-08           MICROCONTROLLER                               ATMEGA8-16AU 9171371    73M8863                 
+IC2           DS1307SMD  DS1307SMD         SO-08M              DS1307 - 64×8, Serial, I2C Real Time Clock                                                    
+JP_A                     PINHD-1X8CLEANBIG 1X08-CLEANBIG       PIN HEADER                                                                                    
+JP_B                     PINHD-1X8CLEANBIG 1X08-CLEANBIG       PIN HEADER                                                                                    
+S1            SKHMPSE010 SKHMPSE010        SKHMPXE010          6.2 X 6.5mm TACT Switch (SMD)                                                                 
+TP_BAT+       TPB2,54    TPB2,54           B2,54               Test pad                                                                                      
+TP_BAT-       TPB2,54    TPB2,54           B2,54               Test pad                                                                                      
+TP_GND        TPB1,27    TPB1,27           B1,27               Test pad                                                                                      
+TP_GND1       TPB2,54    TPB2,54           B2,54               Test pad                                                                                      
+TP_MISO       TPB1,27    TPB1,27           B1,27               Test pad                                                                                      
+TP_MOSI       TPB1,27    TPB1,27           B1,27               Test pad                                                                                      
+TP_RST        TPB1,27    TPB1,27           B1,27               Test pad                                                                                      
+TP_SCK        TPB1,27    TPB1,27           B1,27               Test pad                                                                                      
+TP_SWITCH     TPB1,27    TPB1,27           B1,27               Test pad                                                                                      
+TP_SWITCH_GND TPB1,27    TPB1,27           B1,27               Test pad                                                                                      
+TP_VCC        TPB1,27    TPB1,27           B1,27               Test pad                                                                                      
+TP_VCC1       TPB2,54    TPB2,54           B2,54               Test pad                                                                                      
+XTAL          XTAL-32KHZ XTAL-32KHZ        XTAL-SMD-1206-3216M                                                                                               
