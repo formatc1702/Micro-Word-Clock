@@ -11,6 +11,7 @@ See the YouTube video [here](https://www.youtube.com/watch?v=9ko9CeylUTs).
 
 ##Where to get parts
 - [The 20mm 8x8 LED matrix I used](http://eud.dx.com/product/lson-788-8-x-8-red-led-display-dot-matrix-module-black-white-844302671)
+- [Get the PCB on OshPark](http://oshpark.com/shared_projects/NkANAgow)
 
 ##Featured on
 - [Hackaday](http://hackaday.com/2014/11/29/micro-word-clock/)
