@@ -22,6 +22,22 @@ Includes part numbers for German supplier [Reichelt](www.reichelt.de)
 
 You will require an In-System Programmer (ISP) to write the firmware onto the microcontroller.
 
+##Contributions
+C.M. has built [his own version](http://fortoffee.org.uk/2014/12/word-clock-with-a-unicorn/) using a [Unicorn HAT](http://shop.pimoroni.com/products/unicorn-hat).
+
+
+T.R. has made a Dutch layout.
+```
+VIJFTIEN
+HTWINTIG
+ALF*VOOR
+NATWAALF
+TWEENELF
+DRVIJERF
+ZNESVGEN
+ACHTTIEN
+```
+
 ##Featured on
 - [Hackaday](http://hackaday.com/2014/11/29/micro-word-clock/)
 - [Gizmodo](http://gizmodo.com/build-a-tiny-version-of-those-pricey-word-clocks-on-the-1665134624)
