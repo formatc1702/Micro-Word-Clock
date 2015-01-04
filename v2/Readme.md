@@ -22,6 +22,15 @@ Includes part numbers for German supplier [Reichelt](www.reichelt.de)
 
 You will require an In-System Programmer (ISP) to write the firmware onto the microcontroller.
 
+##Burning the bootloader and uploading the sketch
+Please read these two tutorials if you are unfamiliar with burning a bootloader:
+- http://arduino.cc/en/Tutorial/ArduinoISP
+- http://arduino.cc/en/Tutorial/ArduinoToBreadboard
+ 
+The required procedure is the one described as "AVR on a breadboard" and "Minimal circuit", respectively, as there is no external crystal attached to the microcontroller.
+
+The ICSP header on the Micro Word Clock PCB is the standard layout described [here](http://www.atmel.com/images/doc0943.pdf) (Fig. 2). 
+
 ##Contributions
 Carl Monk has built [his own version](http://fortoffee.org.uk/2014/12/word-clock-with-a-unicorn/) using a [Unicorn HAT](http://shop.pimoroni.com/products/unicorn-hat).
 
