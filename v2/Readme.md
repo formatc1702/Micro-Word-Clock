@@ -42,3 +42,6 @@ Tanguy Rewers independently came up with an alternative Dutch layout (labeled as
 - [Hackaday](http://hackaday.com/2014/11/29/micro-word-clock/)
 - [Gizmodo](http://gizmodo.com/build-a-tiny-version-of-those-pricey-word-clocks-on-the-1665134624)
 - [The Atmel Blog](http://blog.atmel.com/2014/12/01/build-your-own-micro-word-clock-with-an-atmega328p/)
+
+##License
+This project is published under a [Creative Commons BY-SA 3.0 License](http://creativecommons.org/licenses/by-sa/3.0/).
