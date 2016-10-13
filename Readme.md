@@ -5,7 +5,7 @@ A tiny replica of the famous Word Clock, using only an ATmega microcontroller, a
 See the YouTube video [here](https://www.youtube.com/watch?v=9ko9CeylUTs).
 
 ##Directory structure
-- **Arduino** contains the firmware, including pin definitions for the LED matrix and location of the words in each language.
+- **MicroWordClock2-Arduino** contains the firmware, including pin definitions for the LED matrix and location of the words in each language.
 - **EAGLE** contains the schematic and PCB design files for the proejct.
 - **Graphics** contains the design for the transparency sheet to place over the LED matrix to form the words, designed in Inkscape. Contributions in more languages are welcome!
 
@@ -26,8 +26,11 @@ You will require an In-System Programmer (ISP) to write the firmware onto the mi
 Please read these two tutorials if you are unfamiliar with burning a bootloader:
 - http://arduino.cc/en/Tutorial/ArduinoISP
 - http://arduino.cc/en/Tutorial/ArduinoToBreadboard
- 
+
 The required procedure is the one described as "AVR on a breadboard" and "Minimal circuit", respectively, as there is no external crystal attached to the microcontroller.
+
+Please download Carlos Rodrigues' Barebones ATmega Chips board configuration file:
+https://github.com/carlosefr/atmega (instructions inside)
 
 The ICSP header on the Micro Word Clock PCB is the standard layout described [here](http://www.atmel.com/images/doc0943.pdf) (Fig. 2). 
 

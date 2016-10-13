@@ -1,11 +1,13 @@
 // Libraries
 #include <Wire.h>
 #include "RTClib.h"
+
+// Local includes
 #include "pindefs.h"
 #include "otherdefs.h"
-#include "english.h"
 
 // Customizable options
+#include "english.h" // exchange this for the language you need
 boolean blink_enable = true;
 boolean blinknow = false;
 #define FREQ_DISPLAY 1000 // Hz
@@ -69,10 +71,10 @@ void loop() {
 
   if(digitalRead(PIN_BUTTON) != buttonState) {
     buttonState = digitalRead(PIN_BUTTON);
-    if(buttonState == LOW) { // button was pressed  
+    if(buttonState == LOW) { // button was pressed
       buttonMillis = millis();
       buttonHandled = false;
-    } 
+    }
     else { // button was released
       buttonHandled = true;
       unsigned long buttonDelay = millis() - buttonMillis;
@@ -80,17 +82,17 @@ void loop() {
         if(buttonDelay < 1000) { // simple press
           updatenow = true;
           switch(clockmode) {
-          case NORMAL: 
-            blink_enable = !blink_enable; 
+          case NORMAL:
+            blink_enable = !blink_enable;
             blinknow = true;
             TCNT1 = 0;
             break;
-          case SET_MIN: 
+          case SET_MIN:
             rtc.adjust(rtc.now().unixtime() + 1*60);
             blinknow = true;
             TCNT1 = 0;
             break;
-          case SET_HRS: 
+          case SET_HRS:
             rtc.adjust(rtc.now().unixtime() + 1*60*60);
             blinknow = true;
             TCNT1 = 0;
@@ -99,7 +101,7 @@ void loop() {
         }
       }
     }
-  } 
+  }
   else {
     if(buttonState == LOW && !buttonHandled) { // button is being pressed
       unsigned long buttonDelay = millis() - buttonMillis;
@@ -127,7 +129,7 @@ void updateTime() {
 
   disp_min /= 5;
 
-  if(disp_min >= min_offset) 
+  if(disp_min >= min_offset)
     ++disp_hrs %= 12;
   else
     disp_hrs   %= 12;
@@ -147,5 +149,3 @@ void prepareDisplay() {
     }
   }
 }
-
-
