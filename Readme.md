@@ -24,7 +24,7 @@ See the YouTube video [here](https://www.youtube.com/watch?v=9ko9CeylUTs).
 =======
 | LED matrix |  8x8 matrix        | 20x20mm                      | [GYXM-788ASR](http://eud.dx.com/product/lson-788-8-x-8-red-led-display-dot-matrix-module-black-white-844302671)* (DealExtreme) |   |
 | PCB        |                    |                              | [OshPark](https://oshpark.com/shared_projects/NkANAgow)                                                                       |   |
-* Probably any LED matrix labeled 788 should work.
+* Probably any LED matrix labeled 788 should work. 
 
 >>>>>>> cleanup
 You will require an In-System Programmer (ISP) to write the firmware onto the microcontroller.
