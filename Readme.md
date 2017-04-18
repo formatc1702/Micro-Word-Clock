@@ -25,7 +25,7 @@ See the YouTube video [here](https://www.youtube.com/watch?v=9ko9CeylUTs).
 
 You will require an In-System Programmer (ISP) to write the firmware onto the microcontroller.
 
-##Burning the bootloader and uploading the sketch
+## Burning the bootloader and uploading the sketch
 Please read these two tutorials if you are unfamiliar with burning a bootloader:
 - http://arduino.cc/en/Tutorial/ArduinoISP
 - http://arduino.cc/en/Tutorial/ArduinoToBreadboard
