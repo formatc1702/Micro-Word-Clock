@@ -1,15 +1,16 @@
-#Micro Word Clock v2
+# Micro Word Clock v2
 
-##Description
+## Description
 A tiny replica of the famous Word Clock, using only an ATmega microcontroller, a DS1307 Real Time Clock and a few passive components to display the time on an 8x8 LED matrix. The letters have been printed onto a transparent sheet and glued over the LEDs to produce a readable time.
 See the YouTube video [here](https://www.youtube.com/watch?v=9ko9CeylUTs).
 
-##Directory structure
+## Directory structure
 - **MicroWordClock2-Arduino** contains the firmware, including pin definitions for the LED matrix and location of the words in each language.
 - **EAGLE** contains the schematic and PCB design files for the proejct.
 - **Graphics** contains the design for the transparency sheet to place over the LED matrix to form the words, designed in Inkscape. Contributions in more languages are welcome!
 
-##Bill of Materials
+## Bill of Materials
+
 |            | Part name          | Package size                 | [Reichelt](www.reichelt.de) part number                                                                                        |
 |------------|--------------------|------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
 | IC1        | ATmega328P-AU      | TQFP-32                      | ATMEGA 328P-AU                                                                                                                 |
@@ -36,17 +37,17 @@ https://github.com/carlosefr/atmega (instructions inside)
 
 The ICSP header on the Micro Word Clock PCB is the standard layout described [here](http://www.atmel.com/images/doc0943.pdf) (Fig. 2).
 
-##Contributions
+## Contributions
 Carl Monk has built [his own version](http://fortoffee.org.uk/2014/12/word-clock-with-a-unicorn/) using a [Unicorn HAT](http://shop.pimoroni.com/products/unicorn-hat).
 
 [quistoph](https://github.com/qistoph) has made a Dutch layout.
 
 Tanguy Rewers independently came up with an alternative Dutch layout (labeled as dutch2).
 
-##Featured on
+## Featured on
 - [Hackaday](http://hackaday.com/2014/11/29/micro-word-clock/)
 - [Gizmodo](http://gizmodo.com/build-a-tiny-version-of-those-pricey-word-clocks-on-the-1665134624)
 - [The Atmel Blog](http://blog.atmel.com/2014/12/01/build-your-own-micro-word-clock-with-an-atmega328p/)
 
-##License
+## License
 This project (both software and hardware) is published under a [Creative Commons BY-SA 3.0 License](http://creativecommons.org/licenses/by-sa/3.0/).
