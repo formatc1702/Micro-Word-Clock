@@ -11,7 +11,7 @@ See the YouTube video [here](https://www.youtube.com/watch?v=9ko9CeylUTs).
 
 ## Bill of Materials
 
-|            | Part name          | Package size                 | [Reichelt](www.reichelt.de) part number                                                                                        |
+|            | Part name          | Package size                 | [Reichelt](http://reichelt.de) part number                                                                                        |
 |------------|--------------------|------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
 | IC1        | ATmega328P-AU      | TQFP-32                      | ATMEGA 328P-AU                                                                                                                 |
 | IC2        | DS1307Z+           | SO-8                         | DS 1307Z                                                                                                                       |
